@@ -1,0 +1,13 @@
+.container {
+    
+    height: 100vh;
+
+    .header {
+
+        height: 40px;
+
+        &-navbar{
+            background: red;
+        }
+    }
+}
