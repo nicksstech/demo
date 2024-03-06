@@ -16,5 +16,8 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Run PHP
+      - name: Init PHP Unit
+        run: composer require --dev phpunit/phpunit ^11
+
+      - name: Run PHP Unit
         run: ./vendor/bin/phpunit tests
